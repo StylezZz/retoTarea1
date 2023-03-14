@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="contenedor">
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="logo" />
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="list__item"><a href="#">Home</a></li>
+          <li class="list__item"><a href="#">New</a></li>
+          <li class="list__item"><a href="#">Popular</a></li>
+          <li class="list__item"><a href="#">Trending</a></li>
+          <li class="list__item"><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main__contenedor">
+      <section class="contenedor__izquierda">
+        <div class="logo__izquierda">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="imagen-emprasarial(?)">
+        </div>
+        <div class="textos__izquierda">
+          <h1 class="titulo__izquierda">The Bright Future of Web 3.0?</h1>
+          <div class="comments__box">
+            <p class="parrafo__izquierda">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is it
+              really fulfilling its promise?
+            </p>
+            <button id="read__more">READ MORE</button>
+          </div>
+        </div>
+      </section>
+      <section class="contenedor__derecha">
+        <h2 class="titulo__derecha">New</h2>
+        <ul class="noticias__derecha">
+          <li class="noticias__item">
+            <h3 class="subtitle__derecha">Hydrogen VS Electric Cars</h3>
+            <p class="parrafo__derecha">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </li>
+          <div class="lineas"></div>
+          <li class="noticias__item">
+            <h3 class="subtitle__derecha">The Downsides of AI Artistry</h3>
+            <p class="parrafo__derecha">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </li>
+          <div class="lineas"></div>
+          <li class="noticias__item">
+            <h3 class="subtitle__derecha">Is VC Funding Drying Up?</h3>
+            <p class="parrafo__derecha">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+        </ul>
+      </section>
+    </main>
+    <aside class="abajo">
+      <section class="contenedor__abajo">
+        <div class="box__info">
+          <img src="assets/images/image-retro-pcs.jpg" alt="retro-pcs">
+          <div class="info__texto">
+            <h2>01</h2>
+            <h3 class="titulo__info">Reviving Retro PCs</h3>
+            <p class="parrafo__info">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="box__info">
+          <img src="assets/images/image-top-laptops.jpg" alt="laptop">
+          <div class="info__texto">
+            <h2>02</h2>
+            <h3 class="titulo__info">Top 100 Laptops of 2022</h3>
+            <p class="parrafo__info">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="box__info">
+          <img src="assets/images/image-gaming-growth.jpg" alt="gaming">
+          <div class="info__texto">
+            <h2>03</h2>
+            <h3 class="titulo__info">The Growth of Gaming</h3>
+            <p class="parrafo__info">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </aside>
+  </body>
+</html>
